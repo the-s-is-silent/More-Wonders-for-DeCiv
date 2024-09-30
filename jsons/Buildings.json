@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Statue of Remembrance", //originally from Outlaws of the Wastes
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"[+1] population [in this city]",
+			"[+5]% [Production] [in all cities]",
+			"[+10]% Production when constructing [Military] units [in this city]"
+		],
+		"requiredTech": "Engineering",
+		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
+	},
+	{
+		"name": "Legion Call",
+		"isWonder": true,
+		"culture": 1,
+		"uniques": ["[Great General] is earned [25]% faster",
+			"[2] free [Machete] units appear",
+			"[2] free [Crossbowman] units appear",
+			"[-40]% production cost <for [Crimson Legion]>"],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "The Green Palace", //originally from Deciv 2
+		"isWonder": true,
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Creates a [Factory farm] improvement on a specific tile",
+			"[+4 Food] from every [Factory farm]"
+		],
+		"requiredTech": "Hydroponics",
+		"quote": "'When people around me died of the atomic bomb sickness, and I also wondered whether I would survive, I saw this tree putting out shoots and thought I could somehow go on living.' - Anonymous Hiroshima survivor",
+		"civilopediaText": [
+			{
+				"text": "This magnificent architectural wonder generates its own climate control environment, where the best crops bloom and thrive, feeding settlements even in the most desolate lands."
+			}
+		]
+	},
+	{
+		"name": "Domesday Project", //originally from Deciv 2
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"[+25]% Great Person generation [in all cities]",
+			"[+3 Science, +3 Culture] from [Luxury resource] tiles [in this city]",
+			"Only available <if [Public School] is constructed in at least [4] of [Your] cities>"
+		],
+		"requiredTech": "Computers",
+		"quote": "'It is in the handling of data that children can best develop an understanding of what counts for knowledge. They can be led into the areas of critical interpretation. As the computer takes over the role of storing and sorting the data, children can increasingly involve themselves in analysing the significance of the data.' - Bill O'Neill"
+	},
+	{
+		"name": "Amager Bakke",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": [
+			"Must be on [Coast]",
+			"Provides [16] [Power]",
+			"[+50]% Production when constructing [Recycling Plant] buildings [in all cities]",
+			"Sell [Coal Plant] [in this city]",
+			"Sell [Oil Plant] [in this city]",
+			"Gain a free [Recycling Plant] [in this city]"
+		],
+		"requiredTech": "Plastics Recycling",
+		"quote": "'It's living proof that sustainable architecture doesn't have to be boring. It can be an exhilirating part of our daily lives.' - Pre-Cataclysm ad for Copenhill"
+	}
+]
