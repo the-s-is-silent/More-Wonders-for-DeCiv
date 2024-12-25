@@ -1,5 +1,18 @@
 [
 	{
+		"name": "Oasis Atoll", //originally from Deciv 2
+		"isWonder": true,
+		"culture": 1,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+25]% Production when constructing [Water] units [in this city]",
+			"[+1 Production, +1 Gold] from every [Water resource]"
+		],
+		"requiredTech": "Navigation"
+	},
+	{
 		"name": "Statue of Remembrance", //originally from Outlaws of the Wastes
 		"isWonder": true,
 		"culture": 3,
@@ -16,11 +29,44 @@
 		"name": "Legion Call",
 		"isWonder": true,
 		"culture": 1,
-		"uniques": ["[Great General] is earned [25]% faster",
+		"uniques": [
+			"[Great General] is earned [25]% faster",
 			"[2] free [Machete] units appear",
 			"[2] free [Crossbowman] units appear",
-			"[-40]% production cost <for [Crimson Legion]>"],
+			"[-40]% production cost <for [Crimson Legion] Civilizations>"
+		],
 		"requiredTech": "Steel"
+	},
+	{
+		"name": "Project Purity", //lifted from Fallout; needs different name
+		"isWonder": true,
+		"gold": 6,
+		"science": 4,
+		"happiness": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"Must be on [River]",
+			"[+2 Gold, +1 Happiness] from every [Water Plant]"
+		],
+		"requiredTech": "Decontamination",
+		"quote": "'I am Alpha and Omega, the beginning and end. I shall give unto him who is athirst the fountain of the waters of life freely.' - The Holy Bible, Revelation 21:6",
+		"civilopediaText": [
+			{
+				"text": "One of the most ambitious projects undertaken since the Cataclysm, this massive purifier utilizes a combination of recovered and newly developed technologies to completely eliminate all contaminants from treated water."
+			}
+		]
+	},
+	{
+		"name": "Wasteland Games", //originally from Outlaws of the Wastes
+		"isWonder": true,
+		"culture": 6,
+		"happiness": 3,
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [30]",
+			"Free Social Policy"
+		],
+		"requiredTech": "Radio",
+		"quote": "This second revival of what the Old World knew as the Olympic Games was meant to rebuild international fellowship. But as with the first revival, from their first onset they mirrored competition between the participating factions, taking on many of the attributes of war."
 	},
 	{
 		"name": "The Green Palace", //originally from Deciv 2
@@ -61,12 +107,26 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"Provides [16] [Power]",
-			"[+50]% Production when constructing [Recycling Plant] buildings [in all cities]",
+			"[+100]% Production when constructing [Recycling Plant] buildings [in all cities]",
 			"Sell [Coal Plant] buildings [in this city]",
-			"Sell [Oil Plant] buildings [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"Sell [Oil Plant] buildings [in this city]",
 			"Gain a free [Recycling Plant] [in this city]"
 		],
 		"requiredTech": "Plastics Recycling",
 		"quote": "'It's living proof that sustainable architecture doesn't have to be boring. It can be an exhilirating part of our daily lives.' - Pre-Cataclysm ad for Copenhill"
+	},
+	{
+		"name": "Citadel Space Station",
+		"isWonder": true,
+		"science": 8,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"[+1 Production] from every [Scientist]",
+			"[+1 Science] from every [Engineer]",
+			"Gain [1500] [Science] <upon expending a [Great Scientist] unit> <(modified by game speed)>",
+			"Only available <in cities with a [Aerospace Facility]>"
+		],
+		"requiredTech": "Incentivization",
+		"quote": "'The conquest of space must and will go ahead. That much we know. That much we can say with confidence and conviction.' - John F. Kennedy"
 	}
 ]
